@@ -11,7 +11,7 @@ def main():
             elif opcion == 2:
                 ruta = input("Ingrese la ruta de la carpeta con los archivos dicom: ")
                 list_img = cargar_dicom(ruta)
-                display_dicon_images(list_img)
+                imagenes_en_bucle(list_img)
             elif opcion == 3:
                 print("Gracias por usar el sistema")
                 break

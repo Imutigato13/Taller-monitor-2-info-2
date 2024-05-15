@@ -29,7 +29,7 @@ def cargar_dicom(ruta):
         list_img.append(imagen)
     return list_img
 
-def display_dicon_images(list_img):
+def imagenes_en_bucle(list_img):
     fig = plt.figure()
     cont = 0
     while cont < 4:
